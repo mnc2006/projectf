@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projectf</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <a href="/pages/about">About</a>
+  <a href="/pages/contact">Contact</a>
+  <a href="/restaurants/new">Add A Listing</a>
+
+<%= yield %>
+
+<p> Copyright Michelle Caudle</p>
+</body>
+</html>
